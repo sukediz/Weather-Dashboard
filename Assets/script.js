@@ -159,7 +159,7 @@ function storeCityNames() {
 searchButton.on("click", function (event) {
     event.preventDefault();
     var cityTextDisplay = cityInput.val();
-z    if (cityTextDisplay === "") {
+if (cityTextDisplay === "") {
         return;
     }
     keepCities.push(cityTextDisplay);
