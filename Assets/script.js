@@ -140,7 +140,7 @@ function renderCityNames() {
         li.text(keepCities[i]);
         li.attr("data-index", i);
         //button.text("City Searched");
-        var button = $("<p>");   
+        var button = $("<p>");
         displayCity.prepend(li);
     }
 }
